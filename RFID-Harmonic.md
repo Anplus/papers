@@ -1,5 +1,6 @@
 # Harmonic
 - Harmonic Scattering from Passive UHF RFID Tags 
+
 Most tags have dipole like antennas which can resonate at odd harmonics and scatter those as well, while scattering of even harmonics is suppressed, as we observed in measurements. All tag backscatter emissions can potentially be mitigated by adding a dedicated bandpass filter to the tag antenna. We conclude that current passive UHF RFID tags can generate and scatter harmonics and intermodulation products whose powers depends on specific tag details (chip and antenna), as well as power and spectral content of interrogation signal.
 
 - Analysis and exploitation of non-linearities in passive RFID UHF systems
