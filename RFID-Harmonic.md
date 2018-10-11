@@ -5,14 +5,15 @@ Most tags have dipole like antennas which can resonate at odd harmonics and scat
 
 - Analysis and exploitation of non-linearities in passive RFID UHF systems
 
-
-
 - [TOMTT 2013] Analysis of Harmonics in UHF RFID Signals
  
 The uncontrolled nonlinearity in the current UHF RFID technology allows the tag to generate harmonics signals carrying information without constraints to the EPC Global Class 1 Gen 2 standard. 
 
 - [TOIM 2014] RFID Test Platform: Nonlinear Characterization
 
+- [TOMTT 2015] Third Harmonic Exploitation in Passive UHF RFID
+
+Harmonic Currents in the Rectifier:
 
 - [Dissertation 2016] INDOOR LOCATING BY BROADBAND HARMONIC RF BACKSCATTER
 
