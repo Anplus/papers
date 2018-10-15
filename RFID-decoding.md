@@ -31,6 +31,10 @@
     
     >A communication theoretic model for the design and analysis at the physical layer. The difference in delay, the channel fading, and the frequency of individual tags to separate the collided signals. The tags are synchronized to begin with, but differ later in the communication.
 
+1. [TPDS 2012] DDC: A Novel Scheme to Directly Decode the Collisions in UHF RFID Systems
+
+    >redesign the RN pattern to make the collided RNs decodable
+    
 1. [MOBICOM 2015] Come and Be Served: Parallel Decoding for COTS RFID Tags
 
     >Density based clustering algorithm. Different response delays and different bit durations. Different tags have different bit durations.(BLF)
