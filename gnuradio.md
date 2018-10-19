@@ -29,6 +29,56 @@ That is for the FIR filter.
 ## Tag
 PDU: protocol data unit. 
 
+## set and get parameter with gnuradio block
+
+fft_vcc:
+
+      virtual void set_nthreads(int n) = 0;
+      virtual int nthreads() const = 0;
+
+fft_vcc_impl
+
+      void set_nthreads(int n);
+      int nthreads() const;
+
+fft_complex class
+
+      /*!
+       *  Set the number of threads to use for caclulation.
+       */
+      void set_nthreads(int n);
+
+      /*!
+       *  Get the number of threads being used by FFTW
+       */
+      int nthreads() const { return d_nthreads; }
+
+fft_complex class implementation
+      
+    void
+    fft_vcc_fftw::set_nthreads(int n)
+    {
+      d_fft->set_nthreads(n);
+    }
+
+    int
+    fft_vcc_fftw::nthreads() const
+    {
+      return d_fft->nthreads();
+    }
+      
+fft_complex implementation
+    
+    void
+    fft_complex::set_nthreads(int n)
+    {
+      if (n <= 0) {
+        throw std::out_of_range ("gr::fft: invalid number of threads");
+      }
+      d_nthreads = n;
+    }
+
+      
 # Debug
 
 Utilize the virtual sink and virtual source to test the code first.
