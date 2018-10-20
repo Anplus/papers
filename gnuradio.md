@@ -78,7 +78,13 @@ fft_complex implementation
       d_nthreads = n;
     }
 
-      
+SWIG Problem:
+Add callback parameter in the xml.
+
+For some reason virtual header files don't get swig'ed again unless explicitly triggered. Just do a 'make clean' and 'make' again. That should rebuild your module from scratch and also swig your headers.
+
+      make clean
+
 # Debug
 
 Utilize the virtual sink and virtual source to test the code first.
