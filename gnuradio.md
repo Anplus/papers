@@ -85,6 +85,11 @@ For some reason virtual header files don't get swig'ed again unless explicitly t
 
       make clean
 
+# Digital Communication Moudle
+
+## correllation and clock estimation
+Modulator factor
+
 # Debug
 
 Utilize the virtual sink and virtual source to test the code first.
