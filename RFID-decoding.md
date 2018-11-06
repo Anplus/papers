@@ -1,3 +1,11 @@
+# Math Model
+
+1. Advanced Synchronisation and Decoding in RFID Reader Receivers
+
+1. [RFID 2011] Maximum Likelihood Decoding for Non-Synchronized UHF RFID Tags
+
+1. [TPDS] Multipacket Reception of Passive UHF RFID Tags: A Communication Theoretic Approach
+
 # Collision
 ## Encode
 
@@ -42,6 +50,8 @@
 1. [MOBICOM 2017] FlipTracer: Practical Parallel Decoding for Backscatter Communication
 
     >Although the collided signal is time-varying and irregular, transitions between signals’ combined states follow highly stable probabilities.
+
+
 
 
 # FMCW in backscatter
