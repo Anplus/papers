@@ -4,7 +4,13 @@
 
 1. [RFID 2011] Maximum Likelihood Decoding for Non-Synchronized UHF RFID Tags
 
-1. [TPDS] Multipacket Reception of Passive UHF RFID Tags: A Communication Theoretic Approach
+1. [TSP] Multipacket Reception of Passive UHF RFID Tags: A Communication Theoretic Approach
+
+# Multiple Antenna for decoding
+
+1. [ICMMT] An anti-collision algorithm based on smart antenna in RFID system
+
+1. [ICASSP] Separation of overlapping RFID signals by antenna arrays
 
 # Collision
 ## Encode
